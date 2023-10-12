@@ -1,0 +1,31 @@
+@media (max-width:1000px){
+    .header{
+        padding: 15px 0px;
+    }
+}
+@media (max-width:810px){
+    .header_menu ul{
+        padding-left: 20px;
+    }
+}
+@media (max-width:700px){
+    .header_menu ul{
+        display: none;
+    }
+}
+@media (max-width:650px){
+    .header_child h5{
+        padding-left: 100px;
+    }
+    .heder_right_child{
+        justify-content: center;
+    }
+}
+@media (max-width:450px){
+    .header{
+        flex-wrap: wrap;
+    }
+    .heder_right_child{
+        padding-top: 20px;
+    }
+}
